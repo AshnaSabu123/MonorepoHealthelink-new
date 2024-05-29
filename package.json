@@ -1,6 +1,7 @@
 {
+  "name": "@project/monorepo",
   "scripts": {
-    "build": "pnpm -r run build"
+    "install": "pnpm install --scope={@packages/healthelink-docs}",
+    "build": "pnpm -r run build --scope={@packages/healthelink-docs}"
   }
 }
-
